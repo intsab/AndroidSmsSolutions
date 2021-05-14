@@ -1,0 +1,4 @@
+include ':otpfetcher1'
+include ':app'
+project(':otpfetcher1').projectDir = new File(rootDir, 'otpfetcher/')
+rootProject.name = "Sample"

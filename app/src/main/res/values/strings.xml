@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="verify_otp_methods">Verify OTP Methods</string>
+    <string name="get_all_messages">Get All Messages</string>
+    <string name="get_last_3_messages">Get Last 3 Messages</string>
+    <string name="get_sms_messages">Get SMS Messages</string>
+    <string name="get_messages_by_sender">Get Messages By Sender</string>
+    <string name="get_messages_that_contains_string">Get Messages That Contains String</string>
+    <string name="verify_otp_by_sender">Verify Otp By Sender</string>
+    <string name="verify_otp_if_matches_string">Verify Otp If Matches String</string>
+</resources>
