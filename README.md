@@ -31,7 +31,7 @@ allprojects {
 ```groovy
 
 dependencies {
-	implementation 'com.github.intsab:AndroidSmsSolutions:Tag'
+	implementation 'com.github.intsab:AndroidSmsSolutions:1.0'
 	}
 
 ```
