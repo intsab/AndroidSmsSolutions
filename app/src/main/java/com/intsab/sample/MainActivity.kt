@@ -14,26 +14,26 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         allMessages.setOnClickListener {
-            val messages = OtpFetcher.getInstance().getAllMessages(this)
-            Toast.makeText(this@MainActivity, "" + messages, Toast.LENGTH_SHORT).show()
+            val messagesList = OtpFetcher.getInstance().getAllMessages(this)
+            Toast.makeText(this@MainActivity, "" + messagesList, Toast.LENGTH_SHORT).show()
 
         }
 
         last3Messages.setOnClickListener {
-            val messages = OtpFetcher.getInstance().getLastMessages(this, 3)
-            Toast.makeText(this@MainActivity, "" + messages, Toast.LENGTH_SHORT).show()
+            val messagesList = OtpFetcher.getInstance().getLastMessages(this, 3)
+            Toast.makeText(this@MainActivity, "" + messagesList, Toast.LENGTH_SHORT).show()
 
         }
 
         getAllBySender.setOnClickListener {
-            val messages = OtpFetcher.getInstance().getMessagesBySender(this, "971", 3)
-            Toast.makeText(this@MainActivity, "" + messages, Toast.LENGTH_SHORT).show()
+            val messagesList = OtpFetcher.getInstance().getMessagesBySender(this, "971", 3)
+            Toast.makeText(this@MainActivity, "" + messagesList, Toast.LENGTH_SHORT).show()
 
         }
 
         getAllContain.setOnClickListener {
-            val messages = OtpFetcher.getInstance().getMessagesContaining(this, "OTP", 3)
-            Toast.makeText(this@MainActivity, "" + messages, Toast.LENGTH_SHORT).show()
+            val messagesList = OtpFetcher.getInstance().getMessagesContaining(this, "OTP", 3)
+            Toast.makeText(this@MainActivity, "" + messagesList, Toast.LENGTH_SHORT).show()
 
         }
 
