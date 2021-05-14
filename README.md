@@ -38,16 +38,16 @@ dependencies {
 
 ### Permissions
 Add Following Permissions and start using the library.
-  ```xml
+```xml
   <uses-permission android:name="android.permission.READ_SMS" />
   <uses-permission android:name="android.permission.RECEIVE_SMS" />
-
-    ```
+```
 
 ##Samples:
 
 
 **To get Aall the available SMS** in your inbox use method getAllMessages(this) and pass Activity as parameter.
+
 ```kotlin
  val messagesList = OtpFetcher.getInstance().getAllMessages(this)
 ```
@@ -98,4 +98,4 @@ OtpFetcher.getInstance().verifyOtpByMatchingString(this, "OTP", 21000, object : 
 
                 }
             })
-    ```
+```
