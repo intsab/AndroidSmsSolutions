@@ -43,7 +43,7 @@ Add Following Permissions and start using the library.
   <uses-permission android:name="android.permission.RECEIVE_SMS" />
 ```
 
-##Samples:
+## Samples:
 
 
 **To get Aall the available SMS** in your inbox use method getAllMessages(this) and pass Activity as parameter.
@@ -61,7 +61,7 @@ Get All SMS from Inbox by Sender "971" Limit Paramater is **optional**
 val messagesList = OtpFetcher.getInstance().getMessagesBySender(this, "971", 3)
 
 ```
-##Get OTP, Verify OTP
+## Get OTP, Verify OTP
 This is How to receive OTP from a specific sender. The Method has 4 Params
 - Context
 - Sender Number
