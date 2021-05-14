@@ -1,7 +1,7 @@
 # Android All In One Get SMS Solution
 Android all-in-one SMS solution library provides all basic methods to a developer to get SMS messages from inbox. It is the Easiest way to integrate SMS solutions in your application.
 
-###The Library Features:
+### The Library Features:
 - Integrating verify OTP Feature in your application.
 - Get all SMS from the inbox.
 - Search all SMS by the same sender.
